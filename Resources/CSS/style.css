@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  width: 100%;
+  border-bottom: 1px solid black;
+  position: fixed;
+}
+ul {
+  width: 350px;
+}
+ul li {
+  display: inline-block;
+  flex-direction: row;
+}
+.header nav {
+  position: absolute;
+  right: 0px;
+  justify-content: space-around;
+}
+a {
+  color: black;
+}
+.header span,
+.header li {
+  padding: 15px;
+}
+.header img {
+  margin: 5px;
+}
