@@ -8,6 +8,7 @@
   width: 100%;
   border-bottom: 1px solid black;
   position: fixed;
+  z-index: 2;
 }
 ul {
   width: 350px;
@@ -30,4 +31,29 @@ a {
 }
 .header img {
   margin: 5px;
+}
+.main {
+  display: flex;
+  position: relative;
+  top: 50px;
+  width: 100%;
+  justify-content: space-around;
+}
+.columnlarge {
+  width: 630px;
+}
+.columnmedium {
+  width: 300px;
+}
+.columnsmall {
+  width: 240px;
+}
+.main,
+.columnlarge,
+.columnmedium,
+.columnsmall,
+h1,
+h2,
+p {
+  border-style: solid;
 }
